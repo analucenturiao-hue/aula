@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camisetas do Flamengo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FFFFFF;
+      color: #000000;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(to right, #DB0007, #000000);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 5px solid #000000;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo {
+      max-width: 100px;
+      height: auto;
+    }
+
+    h1 {
+      color: #FFFFFF;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      background-color: #000000;
+      padding: 15px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #FFFFFF;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #FFD700;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: left;
+      flex: 1;
+    }
+
+    .content {
+      background-color: #f8f8f8;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h2 {
+      color: #DB0007;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .content h3 {
+      color: #000000;
+      font-size: 1.5rem;
+      margin: 20px 0 10px;
+    }
+
+    .content p {
+      color: #000000;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background-color: #000000;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 20px;
+      width: 100%;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .header-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .logo {
+        max-width: 80px;
+      }
+
+      nav {
+        padding: 10px;
+      }
+
+      nav a {
+        margin: 5px 10px;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="https://images.flamengo.com.br/public/images/artigos/bodies/1523563526.png" alt="Logo Flamengo" class="logo">
+      <h1>Garotas do Ninho</h1>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#torcida">Torcida das Mulheres</a>
+    <a href="historia.html">História das Jogadoras do Flamengo</a>
+    <a href="camisetas.html">Camisetas</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main>
+    <section class="content">
+      <h2>Camisetas do Flamengo</h2>
+      <p>As camisetas do Flamengo, conhecidas pelas icônicas listras vermelhas e pretas, são um símbolo de paixão e orgulho para a Nação Rubro-Negra. Ao longo de mais de um século, os uniformes do clube evoluíram, refletindo mudanças culturais, tecnológicas e de patrocínio, mas sempre mantendo a essência do Mengão. Esta seção explora a rica história das camisetas do Flamengo, desde os primeiros uniformes até os designs modernos de 2025.</p>
+      
+      <h3>Origens: O Início dos Uniformes</h3>
+      <p>Quando o departamento de futebol do Flamengo foi fundado em 1911, o primeiro uniforme, usado em 1912, era conhecido como "papagaio de vintém," com camisas divididas em quadrantes vermelhos e pretos, inspiradas em um estilo de pipa popular. Esse uniforme, no entanto, foi considerado azarado pelos torcedores, e em 1913, foi substituído por um design com listras horizontais vermelhas e pretas, com faixas brancas finas, apelidado de "cobra coral" por sua semelhança com o padrão de uma cobra coral. Esse uniforme marcou a conquista do primeiro Campeonato Carioca do clube em 1914. Em 1916, as faixas brancas foram removidas devido à semelhança com a bandeira da Alemanha, então inimiga na Primeira Guerra Mundial, consolidando o design clássico de listras vermelhas e pretas com calções brancos e meias rubro-negras.</p>[](https://en.wikipedia.org/wiki/CR_Flamengo)
+      
+      <h3>Evolução e Patrocinadores</h3>
+      <p>Ao longo das décadas, as camisetas do Flamengo foram produzidas por várias marcas, incluindo Olympikus, Nike, Umbro, e, atualmente, Adidas, que assumiu como fornecedora oficial em 2013. Cada marca trouxe inovações ao design, mantendo as tradicionais listras rubro-negras. Em 1980, o clube começou a exibir três estrelas brancas verticalmente ao lado do monograma "CRF" para comemorar os tricampeonatos estaduais (1942–44, 1953–55, 1978–79). Após o quarto tricampeonato estadual (1999–2001) e para marcar o 20º aniversário dos títulos da Copa Libertadores e do Mundial de 1981, uma estrela dourada foi adicionada acima do escudo em 2001, um detalhe que permanece até hoje.</p>[](https://en.wikipedia.org/wiki/CR_Flamengo)
+      
+      <p>Os patrocinadores também deixaram sua marca. Na década de 1980, a Petrobras foi um dos primeiros grandes patrocinadores, com seu logotipo estampado nas camisetas. Em 2009, o Flamengo jogou parte da temporada sem patrocinador, uma raridade em 25 anos, antes de fechar com novos parceiros. As camisetas de 2024 e 2025, produzidas pela Adidas, mantêm as listras rubro-negras com detalhes modernos, como mangas pretas sólidas e uma gola em V, além de tecnologia AEROREADY para maior conforto.</p>[](https://en.wikipedia.org/wiki/CR_Flamengo)[](https://www.soccerbible.com/performance/football-apparel/2025/01/flamengo-reveal-debut-2025-home-jersey-from-adidas/)[](https://www.prodirectsport.com/soccer/p/adidas-flamengo-23-24-home-shirt-red-black-mens-replica-1009398/)
+      
+      <h3>Camisetas de 2024 e 2025</h3>
+      <p>Em 2024, a Adidas lançou uma nova camiseta titular para o Flamengo, mantendo as tradicionais listras vermelhas e pretas com um toque moderno: as listras vermelhas afinam gradualmente em direção à base da camisa, criando um efeito dinâmico. A camiseta reserva de 2024 apresentou listras finas horizontais, uma novidade na história do clube, com detalhes dourados celebrando o sucesso do Mengão. Em 2025, a camiseta titular, lançada em janeiro, trouxe detalhes de acabamento preto e vermelho nas listras, com o logotipo da Adidas e o escudo do Flamengo em branco, destacando-se pela gola em V e mangas pretas sólidas. Essa camiseta foi estreada em um amistoso da pré-temporada nos Estados Unidos contra o São Paulo, em um empate sem gols.</p>[](https://www.soccerbible.com/performance/football-apparel/2025/01/flamengo-reveal-debut-2025-home-jersey-from-adidas/)
+      
+      <h3>Significado Cultural</h3>
+      <p>As camisetas do Flamengo vão além do esporte, sendo um ícone cultural para os mais de 40 milhões de torcedores do clube, a maior torcida do Brasil. O uniforme rubro-negro é visto em estádios, ruas e até em coleções de moda, com reedições retrô e camisetas usadas em jogos sendo itens de colecionador. Sites como Classic Football Shirts e MatchWornShirt oferecem camisetas vintage e usadas em partidas, muitas com assinaturas de jogadores, reforçando o valor histórico e emocional desses itens.</p>[](https://www.classicfootballshirts.co.uk/brazilian-clubs/serie-a/flamengo.html)[](https://www.matchwornshirt.com/category/flamengo)
+      
+      <p>Para as "Garotas do Ninho," as camisetas representam a união entre a paixão pelo Flamengo e a força da torcida feminina. Seja nas arquibancadas do Maracanã ou em eventos da torcida, vestir o manto rubro-negro é um ato de orgulho e pertencimento. As camisetas de 2025, disponíveis em tamanhos para homens, mulheres e crianças, continuam a inspirar novas gerações de torcedores a carregar as cores do Mengão com garra e amor.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ana Centurião e Giovanna Damasceno. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
